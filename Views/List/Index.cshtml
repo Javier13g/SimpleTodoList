@@ -1,0 +1,68 @@
+@model IEnumerable<SimpleTodoList.Models.List>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+    <
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TitleList)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DescriptionList)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Complete)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreateDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TitleList)
+            </td>
+            <td>
+                <p>@Html.DisplayFor(modelItem => item.DescriptionList)</p>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Complete)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreateDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category.CategoryName)
+            </td>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Options
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" asp-action="Edit" asp-route-id="@item.IdList">Edit</a> </li>
+                        <li><a class="dropdown-item" asp-action="Details" asp-route-id="@item.IdList">Details</a></li>
+                        <li><a class="dropdown-item" asp-action="Delete" asp-route-id="@item.IdList">Delete</a></li>
+                    </ul>
+                </div>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
