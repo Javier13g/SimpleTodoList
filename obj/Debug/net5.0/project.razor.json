@@ -13566,6 +13566,40 @@
         }
       },
       {
+        "HashCode": -1666800174,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__NotyfViewComponentTagHelper",
+        "AssemblyName": "AspNetCoreHero.ToastNotification",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:notyf"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__NotyfViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "Notyf"
+        }
+      },
+      {
+        "HashCode": -629229832,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__ToastifyViewComponentTagHelper",
+        "AssemblyName": "AspNetCoreHero.ToastNotification",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:toastify"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__ToastifyViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "Toastify"
+        }
+      },
+      {
         "HashCode": 1342982883,
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -15619,38 +15653,8 @@
   "RootNamespace": "SimpleTodoList",
   "Documents": [
     {
-      "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Templates/MvcLayout/Error.cshtml",
-      "TargetPath": "Templates\\MvcLayout\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Templates/ControllerGenerator/ApiControllerWithActions.cshtml",
-      "TargetPath": "Templates\\ControllerGenerator\\ApiControllerWithActions.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Templates/RazorPageGenerator/List.cshtml",
-      "TargetPath": "Templates\\RazorPageGenerator\\List.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Templates/ViewGenerator/Details.cshtml",
-      "TargetPath": "Templates\\ViewGenerator\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Templates/RazorPageGenerator/EditPageModel.cshtml",
-      "TargetPath": "Templates\\RazorPageGenerator\\EditPageModel.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Views/_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Templates/ControllerGenerator/EmptyController.cshtml",
-      "TargetPath": "Templates\\ControllerGenerator\\EmptyController.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15659,48 +15663,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Templates/RazorPageGenerator/ListPageModel.cshtml",
-      "TargetPath": "Templates\\RazorPageGenerator\\ListPageModel.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Templates/RazorPageGenerator/Delete.cshtml",
-      "TargetPath": "Templates\\RazorPageGenerator\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Views/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Templates/RazorPageGenerator/DeletePageModel.cshtml",
-      "TargetPath": "Templates\\RazorPageGenerator\\DeletePageModel.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Templates/ControllerGenerator/ApiControllerWithContext.cshtml",
-      "TargetPath": "Templates\\ControllerGenerator\\ApiControllerWithContext.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Templates/ControllerGenerator/MvcControllerWithContext.cshtml",
-      "TargetPath": "Templates\\ControllerGenerator\\MvcControllerWithContext.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Templates/MvcLayout/_Layout.cshtml",
-      "TargetPath": "Templates\\MvcLayout\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Templates/RazorPageGenerator/Empty.cshtml",
-      "TargetPath": "Templates\\RazorPageGenerator\\Empty.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Templates/ViewGenerator/Edit.cshtml",
-      "TargetPath": "Templates\\ViewGenerator\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15719,38 +15683,18 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Templates/ViewGenerator/Empty.cshtml",
-      "TargetPath": "Templates\\ViewGenerator\\Empty.cshtml",
+      "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Views/Category/Details.cshtml",
+      "TargetPath": "Views\\Category\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Templates/RazorPageGenerator/Create.cshtml",
-      "TargetPath": "Templates\\RazorPageGenerator\\Create.cshtml",
+      "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Views/Category/Index.cshtml",
+      "TargetPath": "Views\\Category\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Templates/RazorPageGenerator/EmptyPageModel.cshtml",
-      "TargetPath": "Templates\\RazorPageGenerator\\EmptyPageModel.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Templates/RazorPageGenerator/Details.cshtml",
-      "TargetPath": "Templates\\RazorPageGenerator\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Templates/ViewGenerator/_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Templates\\ViewGenerator\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Templates/ViewGenerator/Create.cshtml",
-      "TargetPath": "Templates\\ViewGenerator\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Templates/RazorPageGenerator/_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Templates\\RazorPageGenerator\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Views/Category/Delete.cshtml",
+      "TargetPath": "Views\\Category\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15759,18 +15703,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Templates/RazorPageGenerator/DetailsPageModel.cshtml",
-      "TargetPath": "Templates\\RazorPageGenerator\\DetailsPageModel.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Views/Home/Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Templates/RazorPageGenerator/Edit.cshtml",
-      "TargetPath": "Templates\\RazorPageGenerator\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15779,13 +15713,18 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Templates/ControllerGenerator/ApiEmptyController.cshtml",
-      "TargetPath": "Templates\\ControllerGenerator\\ApiEmptyController.cshtml",
+      "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Views/Home/Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Views/Home/Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Views/Category/Create.cshtml",
+      "TargetPath": "Views\\Category\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Views/Category/Edit.cshtml",
+      "TargetPath": "Views\\Category\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15794,28 +15733,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Templates/RazorPageGenerator/CreatePageModel.cshtml",
-      "TargetPath": "Templates\\RazorPageGenerator\\CreatePageModel.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Templates/ViewGenerator/Delete.cshtml",
-      "TargetPath": "Templates\\ViewGenerator\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Templates/ViewGenerator/List.cshtml",
-      "TargetPath": "Templates\\ViewGenerator\\List.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/yavixo/Documentos/GitHub/desarrolloSoftware2/SimpleTodoList/Templates/ControllerGenerator/ControllerWithActions.cshtml",
-      "TargetPath": "Templates\\ControllerGenerator\\ControllerWithActions.cshtml",
       "FileKind": "mvc"
     }
   ],

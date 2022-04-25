@@ -36,10 +36,38 @@
     <_ContentIncludedByDefault Remove="Views\List\Delete.cshtml" />
     <_ContentIncludedByDefault Remove="Views\List\Details.cshtml" />
     <_ContentIncludedByDefault Remove="Views\List\Edit.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\MvcLayout\Error.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\MvcLayout\_Layout.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator\Create.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator\CreatePageModel.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator\Delete.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator\DeletePageModel.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator\Details.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator\DetailsPageModel.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator\Edit.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator\EditPageModel.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator\Empty.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator\EmptyPageModel.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator\List.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator\ListPageModel.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator\_ValidationScriptsPartial.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\ViewGenerator\Create.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\ViewGenerator\Delete.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\ViewGenerator\Details.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\ViewGenerator\Edit.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\ViewGenerator\Empty.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\ViewGenerator\List.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\ViewGenerator\_ValidationScriptsPartial.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
     <UpToDateCheckInput Remove="Views\List\Create.cshtml" />
+    <UpToDateCheckInput Remove="Templates\ControllerGenerator\ApiControllerWithActions.cshtml" />
+    <UpToDateCheckInput Remove="Templates\ControllerGenerator\ApiControllerWithContext.cshtml" />
+    <UpToDateCheckInput Remove="Templates\ControllerGenerator\ApiEmptyController.cshtml" />
+    <UpToDateCheckInput Remove="Templates\ControllerGenerator\ControllerWithActions.cshtml" />
+    <UpToDateCheckInput Remove="Templates\ControllerGenerator\EmptyController.cshtml" />
+    <UpToDateCheckInput Remove="Templates\ControllerGenerator\MvcControllerWithContext.cshtml" />
   </ItemGroup>
 
 </Project>

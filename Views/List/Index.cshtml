@@ -5,35 +5,38 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-    <
-</p>
+<div class="main">
+    <h1>Index</h1>
+    <div class="d-grid gap-2">
+        <a asp-action="Create" class="btn btn-primary" type="button">Create new</a>
+    </div>
+</div>
+<br/>
 <table class="table">
     <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.TitleList)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DescriptionList)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Complete)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CreateDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Category)
-            </th>
-            <th></th>
-        </tr>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TitleList)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DescriptionList)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Complete)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CreateDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Category)
+        </th>
+        <th>
+            Options
+        </th>
+    </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
+    @foreach (var item in Model) {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.TitleList)
@@ -51,18 +54,12 @@
                 @Html.DisplayFor(modelItem => item.Category.CategoryName)
             </td>
             <td>
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                        Options
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        <li><a class="dropdown-item" asp-action="Edit" asp-route-id="@item.IdList">Edit</a> </li>
-                        <li><a class="dropdown-item" asp-action="Details" asp-route-id="@item.IdList">Details</a></li>
-                        <li><a class="dropdown-item" asp-action="Delete" asp-route-id="@item.IdList">Delete</a></li>
-                    </ul>
-                </div>
+                <a class="dropdown-item" asp-action="Edit" asp-route-id="@item.IdList">Edit</a> 
+                <a class="dropdown-item" asp-action="Details" asp-route-id="@item.IdList">Details</a>
+                <a class="dropdown-item" asp-action="Delete" asp-route-id="@item.IdList">Delete</a>
             </td>
         </tr>
-}
+    }
     </tbody>
 </table>
+

@@ -21,7 +21,6 @@ namespace SimpleTodoList.Models
         [StringLength(1000)]
         public string DescriptionList { get; set; }
         
-        [Required(ErrorMessage = "Empty State")]
         public bool Complete { get; set; }
         
         public DateTime CreateDate { get; set; }
